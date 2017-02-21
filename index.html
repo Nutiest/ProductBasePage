@@ -6,54 +6,50 @@
 
 	<title> Product Page </title>
 
-<link href="https://fonts.googleapis.com/css?family=Lobster|Titillium+Web" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Titillium+Web" rel="stylesheet">
 
 <style>
 
 body		{
 	background-color: lightblue;
 }
-
 h1			{
 	font-family: 'Lobster', cursive;
 	text-align: center;
 	margin: 10px 15px;
 	padding-bottom: 50px;
-	background-color: white;
 	width: 180px;
 	height: 0px;
 	clear: both;
 }
+h1 span 	{
+	background-color: turquoise;
+}
 h2			{
 	font-family: 'Titillium Web', sans-serif;
 }
-ul			{
-	list-style-type: none;
-	padding-left: 10px;
-	float: left;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: lightblue;
 }
-a:link 		{
+li a {
+    display: block;
+    color: blue;
+    padding: 8px 16px;
     text-decoration: none;
-    color: darkblue;
-    font-size: 2em;
 }
-a:visited 	{
-    text-decoration: none;
-    color: darkgreen;
-}
-a:hover 	{
-    text-decoration: underline;
-    color: hotpink;
-}
-a:active 	{
-    text-decoration: underline;
-    color: darkgreen;
+li a:hover {
+    background: blue;
+    color: white;
 }
 p 			{
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 2em;
 	float: left;
-	padding-left: 100px;
+	padding-left: 20px;
 	width: 900px
 }
 
@@ -64,9 +60,10 @@ p 			{
 
 <body>
 
-<h1>
+
+<h1><span>
 Nutiest INC.
-</h1>
+</span></h1>
 
 <h2>
 
@@ -82,6 +79,7 @@ Nutiest INC.
 
 <p> Here at Nutiest Incorporated, we strive to bring you the highest quality computer accessories. Our selections are full of great items that we guaruntee to fit your computing needs. If it's style your looking for, we have that. Functionality? We have that too! Our prices are the lowest in the industry, and we have weekly sales that will blow your mind!
 </p>
+
 
 </body>
 </html>
